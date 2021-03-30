@@ -38,7 +38,7 @@ function compute()
         return  
   }
   /* check for negative numbers */
-  else if(Math.sign(_principal)=== -1){
+  else if(Math.sign(_principal)=== -1 || _principal === '0' ){
     var validationText = "Please enter a positive number.";
     amountval.innerHTML = validationText;
     amountval.setAttribute("style", "display: block;");
