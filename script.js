@@ -30,7 +30,7 @@ function compute()
    /* Check if prinicipal is empty and is not numeric */
    if(_principal ==='' || _principal == undefined || isNaN(_principal))
    { 
-        var validationText = "Please enter a numeric amount value.";
+        var validationText = "Please enter a numeric amount value. Your entry must be a positive number.";
         amountval.innerHTML = validationText;
         amountval.setAttribute("style", "display: block;");
         document.getElementById("principal").focus();
@@ -60,7 +60,7 @@ function compute()
 
 }
 /* Helper functions */
-
+const setfocus =()=>document.getElementById("principal").focus();
  function CurrentInterestRate(value) {
         document.getElementById("selectedRate").innerHTML = value + "%";
 }  
