@@ -1,4 +1,64 @@
-body {background-color:tan;}
-h1{color:green;}
 
 
+body {background-color:#000; 
+    display: flex;
+    justify-content: center;
+height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1{color:grey;}
+
+.maindiv{
+background-color: #ffffff;
+
+max-width:600px;
+padding:20px;
+border-radius: 25px;
+align-self: center;
+}
+.form-group{
+    margin-left: 50px;
+}
+.form-control{
+
+    padding: 5px;
+}
+label{
+    width: 200px;
+    float: left;
+}
+.errormsg{
+    color:red;
+    font-size: 12px;;
+}
+.highlight-text{
+    background: #fff2a8;
+}
+.btn {
+    margin:10px 0;
+    width: 180px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: "Verdana", sans-serif;
+  }
+   .btn:hover {
+color: #fff;
+    font-size: 14px;
+   
+  }
+
+  .blue {
+    border: 2px solid #1976d2;
+    color: #1976d2;
+  }
+  .blue:hover {
+    background-color: #1976d2;
+    transition: all 0.3s ease-in-out;
+  }
+footer{
+    margin-top:20px;
+}
